@@ -379,7 +379,7 @@ public class PusherPlugin implements MethodCallHandler {
 
             Channel channel = channels.get(channelName);
 
-            channel.trigger(eventName, "{}");
+            //channel.trigger(eventName, "{}");
         } catch (Exception e) {
             if (isLoggingEnabled) {
                 Log.d(TAG, String.format("unbind exception: %s", e.getMessage()));
